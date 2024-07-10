@@ -893,12 +893,6 @@ require('lazy').setup({
     end,
   },
   {
-      "3rd/image.nvim",
-      config = function()
-        require('image').setup()
-      end
-  },
-  {
     "yacineMTB/pyrepl.nvim",
     dependencies = { 'nvim-lua/plenary.nvim' },
     config = function()
